@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MarketWork</string>
+    <string name="merchant_avatar">Merchant Avatar</string>
+    <string name="product_image">Product Image</string>
+    <string name="welcome_message">Welcome to MarketWork</string>
+    <string name="search_merchants">Search Merchants</string>
+    <string name="view_cart">View Cart</string>
+    <string name="manage_addresses">Manage Addresses</string>
+    <string name="logout">Logout</string>
+    <string name="enter_new_address">Enter New Address</string>
+    <string name="save_address">Save Address</string>
+    <string name="add_new_address">Add New Address</string>
+    <string name="place_order">Place Order</string>
+    <string name="selected_address">Selected Address: </string>
+    <string name="total_price">Total Price: $%s</string>
+</resources>
+
+
+

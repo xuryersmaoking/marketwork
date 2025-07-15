@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue">
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="Enter Username"
+        style="@style/EditTextStyle"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etUsername"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        style="@style/EditTextStyle"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPassword"
+        android:layout_marginTop="24dp"
+        android:text="Login"
+        style="@style/ButtonStyle"/>
+
+    <TextView
+        android:id="@+id/tvForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogin"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:text="Forgot Password?"
+        android:textColor="@color/dark_blue"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogin"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:text="Register"
+        android:textColor="@color/dark_blue"
+        android:textSize="16sp"/>
+</RelativeLayout>
+
+
+
+
+
+

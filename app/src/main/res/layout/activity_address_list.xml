@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAddresses"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btnAddAddress"/>
+
+    <Button
+        android:id="@+id/btnAddAddress"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/cart_button_background"
+        android:textColor="@color/white"
+        android:text="添加收货地址"
+        android:elevation="4dp"/>
+</RelativeLayout>
+
+
+
+
+
+
+
+

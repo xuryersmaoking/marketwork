@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue">
+
+    <EditText
+        android:id="@+id/etAddressDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Enter your address"
+        android:inputType="textMultiLine"
+        android:maxLines="5"
+        android:minLines="3"
+        android:gravity="top|start"
+        android:background="@drawable/edittext_background"
+        android:padding="16dp"
+        android:textColor="#333333"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnSaveAddress"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/cart_button_background"
+        android:textColor="@color/white"
+        android:text="保存地址"
+        android:elevation="4dp"/>
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
